@@ -1,44 +1,53 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,700italic,800,600italic,800italic,300italic);
 
 body {
+	font-weight: 300;
+	color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
 	font-family: 'Open Sans', sans-serif;
 
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+  }
+
 /*HEADER AREA*/
 header {
-	background-image:url("../images/header_bg.jpg");
+	 background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  padding-top: 32px;
 	background-repeat: no-repeat;
 	height: 700px;
-	width: 100%;
-	margin: 0;
-}
-.logo {
-	padding: 15px 0 0 55px;
-	color: white;
-	font-weight: bolder;
-	font-size: 24px;
+
 }
 
-
-header h1 {
-	font-size: 24px;
-	font-weight: bolder;
-	color: white;
-	padding: 185px 0 0 366px;
+header .logo {
+  color: #fff;
+}
+header h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 120px 0 90px;
+  font-weight: 600;
 }
 
-header button {
-	font-weight: bold;
-	color: #033048;
-	font-size: 14px;
-	border-radius: 5px;
-	padding: 10px 45px 10px 45px;
-	background: yellow;
-	color: black;
-	margin-top: 50px;
-	margin-left:515px;
-	
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.yellow {
+  background: #f9e42e;
+  color: #033048;
 }
 
 /*
